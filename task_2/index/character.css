@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.content {
+    margin-top: 50px;
+}
+.content > div {
+    width: fit-content;
+    padding: 50px;
+    margin: auto;
+    box-shadow: 0px 0px 20px 10px rgba(128, 128, 128, 0.519);
+    border-radius: 20px;
+
+    display: flex;
+    gap: 50px;
+}
+.content-main {
+    width: 400px;
+}
+.content-main h3 {
+    font-family: sans-serif;
+    display: flex;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.content-main span {
+    width: 100px;
+    display: flex;
+}
+.episode {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin: 50px auto;
+    height: 400px;
+    overflow-y: scroll;
+}
+.episode a {
+    color: #000;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.episode::-webkit-scrollbar {
+    width: 10px;
+}
+.episode::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+.episode::-webkit-scrollbar-thumb {
+background: #888;
+}
+.episode::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
